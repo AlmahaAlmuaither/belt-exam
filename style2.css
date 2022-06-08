@@ -1,0 +1,40 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.main {
+    margin-top: 120px;
+    margin-left: 520px;
+    width: 500px;
+    height: 400px;
+    border: 3px solid;
+    text-align: center;
+    background-color:rgb(155, 189, 132);
+    font-size: 20px;
+}
+
+.fname, .lname, .email, .phone, .msg {
+    margin-top: 20px;
+}
+
+#submitBtn {
+    margin-top: 50px;
+    height: 30px;
+    width: 70px;
+    box-shadow: 4px 4px black;
+}
+
+#message1 {
+    margin-left: 690px;
+    margin-top: 70px;
+}
+
+#message2 {
+    margin-left: 580px;
+}

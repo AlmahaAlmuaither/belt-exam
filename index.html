@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <title>A Web Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Patrick+Hand&family=Raleway:wght@500&family=Roboto:ital,wght@1,300&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+    <div class="header">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="introduction">
+        <img src="assets/profile.jpg" alt="profile-icon">
+        <div class="intro">
+            <h1>Introduction</h1>
+            <p>Hello, My name is Almaha and this is my first web page, I hope
+                 you like it...</p>
+        </div>
+    </div>
+    <div class="boxes">
+        <div class="box">
+            <img id="projectImg" src="assets/p1.png" alt="project one picture">
+            <h1>Dojo Weather</h1>
+        </div>
+        <div class="box">
+            <img id="projectImg" src="assets/p2.png" alt="project two picture">
+            <h1>User Card</h1>
+        </div>
+        <div class="box">
+            <img id="projectImg" src="assets/p3.png" alt="project three picture">
+            <h1>Dojonary</h1>
+        </div>
+    </div>
+    <div class="content3">
+        <div class="headerOfSkill">
+            <h1>My Skills</h1>
+            <div class="addSkill">
+                <input id="typing" name="newSkill" type="text" placeholder="Enter skill name">
+                <button onclick="addToList()">Add skill</button>
+            </div>
+        </div>
+        <div class="skillList">
+            <ol id="list">
+                <li onclick="makeItDone(this)">Programming</li>
+                <li onclick="makeItDone(this)">UX Design</li>
+                <li onclick="makeItDone(this)">Computer Skills</li>
+                <li onclick="makeItDone(this)">Time Management</li>
+                <li onclick="makeItDone(this)">Responsibility</li>
+            </ol>
+        </div>
+    </div>
+<body>
+    
+</body>
+</html>

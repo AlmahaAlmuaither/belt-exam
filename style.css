@@ -1,0 +1,118 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header {
+    background-color:rgb(114, 144, 94);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header a {
+    color: white;
+    margin-right: 50px;
+    padding: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.introduction {
+    margin-left: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.introduction img {
+    width: 200px;
+    height: 200px;
+    /*border-bottom: 4px solid black;*/
+}
+
+.intro {
+    margin-left: 80px;
+    width: 500px;
+}
+
+.intro p {
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.boxes {
+    background-color: rgb(114, 144, 94);
+    height: 280px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.box {
+    border: 3px solid black;
+    height: 260px;
+    width: 300px;
+}
+
+.box h1 {
+    text-align: center;
+    color: white;
+}
+
+.box:hover {
+    background-color:rgb(189, 156, 126);
+}
+
+.content3 {
+    width: 800px;
+    margin-left: 330px;
+    margin-top: 30px;
+}
+
+.headerOfSkill {
+    display: flex;
+    justify-content: space-between;
+}
+
+.addSkill  button {
+    height: 30px;
+    width: 80px;
+}
+
+.addSkill input {
+    height: 30px;
+    width: 200px;
+}
+
+.skillList {
+    border: 3px solid black;
+    margin-top: 10px;
+}
+
+.skillList ol {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.skillList li {
+    padding: 5px
+}
+
+ol li:hover {
+    background-color: rgb(189, 156, 126);
+}
+
+#projectImg {
+    width: 300px;
+    height: 210px;
+    border-bottom: 3px solid black;
+}
+
